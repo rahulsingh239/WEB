@@ -1,5 +1,5 @@
 // console.log("unwanted buggy code")
-console.log("Hello world!")
+// console.log("Hello world!")
 
 /* 
 comments
@@ -9,7 +9,7 @@ shift + alt +a  block comment
 /* 
 let color = "pink"
 console.log("Tshering favourite color is ", color) */
-
+// 1)Variable
 /* let fullname = "Shyam"
 console.log(fullname)
 fullname = "Hari"
@@ -40,8 +40,8 @@ b = c;
 console.log(a, b);
 
 console.log("double quote = ",'" "') */
-
-let color ={
+// 2)Object 
+/* let color ={
     name: "red",
     hexValue: "#FF0000",
     rgbValue: "rgba(255,0,0)"
@@ -61,4 +61,67 @@ let person ={
     website: "john@doe.com"
 }
 
-console.log(`My full name is ${person.first_name} ${person.last_name}.`)
+console.log(`My full name is ${person.first_name} ${person.last_name}.`) */
+
+/* let monitor ={
+    model: "samsung",
+    hertz: 120
+}
+ console.log(monitor);
+
+ let obj ={
+    name: "Shyam",
+    name: "hari",
+    Name: "ram"
+ }
+ console.log(obj.name);
+ console.log(obj.Name); */
+
+/* let person = {
+    firstName: "Hari",
+    lastName: "Kumar",
+    country: "India"
+}
+person.lastName = "Bahadur"
+person.country = "Nepal"
+console.log(`He is ${person.firstName} ${person.lastName} from ${person.country}.`) */
+
+/* let person = {
+    firstName: "Hari",
+    lastName: "Bahadur",
+    contact: {
+        ncell: 9800000000
+    }
+}
+person.contact.ntc = 9700000000
+person.address={
+    strret: "Putaisadak",
+    ward: 16
+}
+
+console.log(person); */
+
+/* let person = {
+    first_name: "John",
+    last_name: "Doe",
+    age: 18,
+    website: "https://www.johndoe.com"
+}
+person.fieldToRetrieve = person.first_name
+console.log(person.fieldToRetrieve) */
+
+// 3) Array
+
+/* let members = ["Aarya","Aasha","Anisha","Amit","Anjana","Bijay","Bikash"]
+console.log(members[0]);
+console.log(members[1]);
+console.log(members[2]);
+// members[6] ="Bishal" overwriting bijay 
+console.log(members[6]);
+console.log(members); */
+
+let brands = ["apple", "samsung", "lg", "nokia"]
+console.log(brands);
+console.log("in second element , we have", brands[1])
+brands[1] = "Sony"
+console.log("in second element , we have", brands[1])
